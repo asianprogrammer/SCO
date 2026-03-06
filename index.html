@@ -8,12 +8,11 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
 >
-<style>.card-grid{display:grid;gap:.5rem;grid-template-columns:1fr}@media(min-width:768px){.card-grid{grid-template-columns:repeat(2,1fr);gap:1rem}}@media(min-width:1024px){.card-grid{grid-template-columns:repeat(4,1fr);gap:1.5rem}}.card{padding:.75rem;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,.1)}</style>
 </head>
 <body>
     
 
-    <main class="container card-grid">
+    <main class="container grid">
     
         <article class="extra-small card">
             <figure class="extra-small">
@@ -22,6 +21,13 @@
 
             <h3>Product Name</h3>
             <p>About product short</p>
+
+            <div role="gorup">
+                <input type="checkbox" name="Checked" id="check">
+                <label for="check">Terms & service</label>
+            </div>
+            <br>
+
             <button class="outline pico-background-purple-350">Buy Now</button>
         </article>
 
