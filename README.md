@@ -1,5 +1,2 @@
-# test-site
 # SCO
-# SCO
-# SCO
-# SCO
+Server and Client Side opration `testing only`
